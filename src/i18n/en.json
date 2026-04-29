@@ -1,0 +1,322 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "propiedades": "Properties",
+    "estadisticas": "Statistics",
+    "mensajes": "Messages",
+    "configuracion": "Settings",
+    "equipo": "Team",
+    "logout": "Log out"
+  },
+  "equipo": {
+    "title": "Team",
+    "subtitle": "Manage AsturHome agents.",
+    "nuevoAgente": "New agent",
+    "editar": "Edit",
+    "eliminar": "Delete",
+    "sinAgentes": "No agents registered.",
+    "tabla": {
+      "agente": "Agent",
+      "email": "Email",
+      "rol": "Role",
+      "acciones": "Actions"
+    },
+    "modal": {
+      "tituloCrear": "New agent",
+      "tituloEditar": "Edit agent",
+      "nombre": "Name",
+      "nombrePh": "Full name",
+      "email": "Email",
+      "emailPh": "email@example.com",
+      "password": "Password",
+      "passwordPh": "Initial password",
+      "cancelar": "Cancel",
+      "guardar": "Save",
+      "guardando": "Saving..."
+    },
+    "confirmar": {
+      "titulo": "Delete agent",
+      "texto": "Are you sure you want to delete {nombre}? This action cannot be undone.",
+      "confirmar": "Delete",
+      "eliminando": "Deleting..."
+    }
+  },
+  "topbar": {
+    "role": "AGENT",
+    "welcome": "Every property is an opportunity. Go for it, {name}!"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "General summary of your real estate portfolio.",
+    "kpi": {
+      "propiedades": "Total Properties",
+      "mensajes": "Pending Messages",
+      "ventas": "Monthly Sales",
+      "ingresos": "Estimated Revenue"
+    },
+    "sinRef": "No ref.",
+    "ultimasPropiedades": "Latest Properties",
+    "verTodas": "View all →",
+    "mensajesRecientes": "Recent Messages",
+    "verTodos": "View all →",
+    "ventasPorMes": "Sales and Rentals by Month",
+    "ventas": "Sales",
+    "alquileres": "Rentals",
+    "estadoCartera": "Portfolio Status",
+    "verMas": "View more →",
+    "disponible": "Available",
+    "reservado": "Reserved",
+    "vendidoAlq": "Sold / Rented",
+    "cargando": "Loading properties...",
+    "sinMensajes": "No recent messages."
+  },
+  "estadisticas": {
+    "title": "Statistics Panel",
+    "subtitle": "Visualize the performance of your real estate portfolio.",
+    "datos": "Data",
+    "exportar": "Export Report",
+    "kpi": {
+      "propiedades": "Total Properties",
+      "leads": "Monthly Leads",
+      "ventas": "Monthly Sales",
+      "ingresos": "Estimated Revenue"
+    },
+    "variacionTooltip": "Change vs previous month",
+    "ventasPorMes": "Sales and Rentals by Month",
+    "ventas": "Sales",
+    "alquileres": "Rentals",
+    "estadoCartera": "Portfolio Status",
+    "precioMedio": "Average Price by Type (€)",
+    "distribucionZona": "Distribution by Area",
+    "altasRecientes": "Recent Listings",
+    "ultimos7": "Last 7 days",
+    "topPropiedades": "Top Properties (Views)",
+    "clicks": "CLICKS",
+    "disponible": "Available",
+    "reservado": "Reserved",
+    "vendidoAlq": "Sold / Rented",
+    "propAbrev": "prop.",
+    "propiedades": "Properties"
+  },
+  "propiedades": {
+    "title": "Properties",
+    "subtitle": "Manage Asturhome's real estate asset inventory.",
+    "exportar": "Export CSV",
+    "nueva": "New Property",
+    "filtros": {
+      "tipo": "TYPE",
+      "todosTipos": "All types",
+      "ciudad": "CITY",
+      "cualquierUbicacion": "Any location",
+      "precioMax": "MAX. PRICE",
+      "habitaciones": "BEDROOMS",
+      "cualquierNro": "Any number",
+      "modalidad": "LISTING TYPE",
+      "ventaAlquiler": "Sale / Rental",
+      "estado": "STATUS",
+      "cualquierEstado": "Any status",
+      "disponible": "Available",
+      "reservado": "Reserved",
+      "alquilado": "Rented",
+      "vendido": "Sold",
+      "venta": "Sale",
+      "alquiler": "Rental"
+    },
+    "tabla": {
+      "propiedad": "PROPERTY",
+      "tipo": "TYPE",
+      "detalles": "DETAILS",
+      "precio": "PRICE",
+      "modalidad": "LISTING",
+      "estado": "STATUS",
+      "acciones": "ACTIONS",
+      "hab": "bed.",
+      "banos": "baths"
+    },
+    "paginacion": {
+      "mostrando": "Showing",
+      "de": "of",
+      "propiedades": "properties"
+    },
+    "modal": {
+      "eliminarTitulo": "Delete property?",
+      "eliminarMsg": "Are you sure you want to delete {name}? This action cannot be undone.",
+      "cancelar": "Cancel",
+      "eliminando": "Deleting...",
+      "confirmarEliminar": "Yes, delete"
+    },
+    "form": {
+      "nuevaTitulo": "New Property",
+      "nuevaSubtitulo": "Fill in the property details",
+      "editarTitulo": "Edit Property",
+      "nombre": "Name",
+      "tipo": "Type",
+      "seleccionar": "Select...",
+      "ubicacion": "Location",
+      "modalidad": "Listing type",
+      "venta": "Sale",
+      "alquiler": "Rental",
+      "estado": "Status",
+      "disponible": "Available",
+      "reservado": "Reserved",
+      "alquilado": "Rented",
+      "vendido": "Sold",
+      "precio": "Price (€)",
+      "habitaciones": "Bedrooms",
+      "banos": "Bathrooms",
+      "superficie": "Area (m²)",
+      "imagenes": "Images",
+      "uploadText": "Drag images here or",
+      "uploadLink": "select files",
+      "anadirImagenes": "Add more images",
+      "cancelar": "Cancel",
+      "guardando": "Saving...",
+      "guardarPropiedad": "Save Property",
+      "guardarCambios": "Save changes"
+    },
+    "ver": {
+      "tipo": "TYPE",
+      "modalidad": "LISTING",
+      "estado": "STATUS",
+      "habitaciones": "BEDROOMS",
+      "banos": "BATHROOMS",
+      "superficie": "AREA",
+      "ubicacion": "LOCATION",
+      "precio": "PRICE"
+    },
+    "stats": {
+      "ratioVenta": "SALES RATIO",
+      "mediaReservas": "AVG. BOOKING TIME",
+      "nuevosLeads": "NEW LEADS",
+      "dias": "days",
+      "hoy": "Today"
+    }
+  },
+  "mensajes": {
+    "title": "Message Center",
+    "subtitle": "Manage your clients' inquiries in real time.",
+    "tabs": {
+      "tablero": "Board",
+      "lista": "List",
+      "archivo": "Archive"
+    },
+    "estados": {
+      "nuevo": "New",
+      "nuevos": "New",
+      "enProceso": "In progress",
+      "respondido": "Responded",
+      "respondidos": "Responded",
+      "cerrado": "Closed",
+      "cerrados": "Closed"
+    },
+    "tabla": {
+      "cliente": "Client",
+      "propiedad": "Property",
+      "tipo": "Type",
+      "mensaje": "Message",
+      "modalidad": "Listing",
+      "estado": "Status",
+      "acciones": "Actions"
+    },
+    "verHilo": "View thread",
+    "archivo": {
+      "vacio": "No archived messages"
+    },
+    "panel": {
+      "estado": "Status:",
+      "responder": "Reply",
+      "notaInterna": "Internal note",
+      "placeholderRespuesta": "Write your reply...",
+      "placeholderNota": "Write a private note (only visible to the team)...",
+      "enviarEmail": "An email will be sent to",
+      "soloEquipo": "Only visible to the team, the client won't see it",
+      "guardarNota": "Save note",
+      "enviar": "Send"
+    }
+  },
+  "configuracion": {
+    "title": "Settings",
+    "subtitle": "Customize your real estate management environment.",
+    "perfil": {
+      "title": "User Profile",
+      "guardar": "Save Changes",
+      "nombre": "FULL NAME",
+      "idioma": "LANGUAGE",
+      "contrasena": "PASSWORD",
+      "cambiarContrasena": "Change password",
+      "guardadoOk": "Profile saved successfully.",
+      "modal": {
+        "title": "Change Password",
+        "actual": "CURRENT PASSWORD",
+        "nueva": "NEW PASSWORD",
+        "confirmar": "CONFIRM PASSWORD",
+        "cancelar": "Cancel",
+        "guardar": "Save",
+        "guardando": "Saving...",
+        "ok": "Password updated successfully.",
+        "noCoinciden": "Passwords do not match.",
+        "sinActual": "Enter your current password.",
+        "sinNueva": "Enter the new password.",
+        "errorConexion": "Connection error with the server."
+      }
+    },
+    "apariencia": {
+      "title": "Appearance",
+      "tema": "VISUAL THEME",
+      "claro": "Light",
+      "oscuro": "Dark",
+      "colorAcento": "ACCENT COLOR",
+      "fuente": "FONT SIZE",
+      "fuentePequeno": "Small",
+      "fuenteMediano": "Medium",
+      "fuenteGrande": "Large"
+    },
+    "preferencias": {
+      "title": "System Preferences",
+      "sonido": "Sound Notifications",
+      "sonidoDesc": "Play sound when receiving alerts",
+      "atajos": "Keyboard Shortcuts",
+      "atajosDesc": "Enable quick navigation",
+      "decimales": "Price Format",
+      "decimalesDesc": "Show decimals in values",
+      "paginaInicio": "HOME PAGE"
+    },
+    "atajos": {
+      "title": "Quick Shortcuts",
+      "navDashboard": "Go to Dashboard",
+      "navPropiedades": "Go to Properties",
+      "navEstadisticas": "Go to Statistics",
+      "navMensajes": "Go to Messages",
+      "navConfiguracion": "Go to Settings",
+      "buscador": "Global Search",
+      "nuevaPropiedad": "New Property",
+      "navLogout": "Log out",
+      "buscarPropiedades": "Search properties",
+      "buscarMensajes": "Search messages",
+      "vistaTablero": "Board view",
+      "vistaLista": "List view",
+      "guardarPerfil": "Save profile",
+      "alternarTema": "Toggle light/dark theme",
+      "restaurar": "Restore",
+      "hint": "Click a shortcut to change it",
+      "pulsaTecla": "Press a key…",
+      "teclaEnUso": "Key already in use"
+    },
+    "fraseDia": {
+      "title": "Daily Phrase",
+      "hint": "Use {name} to insert the agent's name. Today's day is highlighted.",
+      "dias": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    },
+    "cerrarSesion": "Log Out"
+  },
+  "estados": {
+    "disponible": "Available",
+    "reservado": "Reserved",
+    "alquilado": "Rented",
+    "vendido": "Sold",
+    "nuevo": "New",
+    "enProceso": "In progress",
+    "respondido": "Responded",
+    "cerrado": "Closed"
+  }
+}

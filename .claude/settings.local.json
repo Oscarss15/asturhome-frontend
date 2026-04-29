@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Trabajo/Desktop/paneladminAsturHome/backend/src/main/java/com/asturhome/backend/config/**)"
+    ]
+  }
+}

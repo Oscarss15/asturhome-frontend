@@ -1,0 +1,322 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "propiedades": "Propiedades",
+    "estadisticas": "Estadísticas",
+    "mensajes": "Mensajes",
+    "configuracion": "Configuración",
+    "equipo": "Equipo",
+    "logout": "Log out"
+  },
+  "equipo": {
+    "title": "Equipo",
+    "subtitle": "Gestiona los agentes de AsturHome.",
+    "nuevoAgente": "Nuevo agente",
+    "editar": "Editar",
+    "eliminar": "Eliminar",
+    "sinAgentes": "No hay agentes registrados.",
+    "tabla": {
+      "agente": "Agente",
+      "email": "Email",
+      "rol": "Rol",
+      "acciones": "Acciones"
+    },
+    "modal": {
+      "tituloCrear": "Nuevo agente",
+      "tituloEditar": "Editar agente",
+      "nombre": "Nombre",
+      "nombrePh": "Nombre completo",
+      "email": "Email",
+      "emailPh": "correo@ejemplo.com",
+      "password": "Contraseña",
+      "passwordPh": "Contraseña inicial",
+      "cancelar": "Cancelar",
+      "guardar": "Guardar",
+      "guardando": "Guardando..."
+    },
+    "confirmar": {
+      "titulo": "Eliminar agente",
+      "texto": "¿Seguro que quieres eliminar a {nombre}? Esta acción no se puede deshacer.",
+      "confirmar": "Eliminar",
+      "eliminando": "Eliminando..."
+    }
+  },
+  "topbar": {
+    "role": "AGENTE",
+    "welcome": "Cada propiedad es una oportunidad. ¡A por ello, {name}!"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Resumen general de tu cartera inmobiliaria.",
+    "kpi": {
+      "propiedades": "Total Propiedades",
+      "mensajes": "Mensajes Pendientes",
+      "ventas": "Ventas del Mes",
+      "ingresos": "Ingresos Estimados"
+    },
+    "sinRef": "Sin ref.",
+    "ultimasPropiedades": "Últimas Propiedades",
+    "verTodas": "Ver todas →",
+    "mensajesRecientes": "Mensajes Recientes",
+    "verTodos": "Ver todos →",
+    "ventasPorMes": "Ventas y Alquileres por Mes",
+    "ventas": "Ventas",
+    "alquileres": "Alquileres",
+    "estadoCartera": "Estado de Cartera",
+    "verMas": "Ver más →",
+    "disponible": "Disponible",
+    "reservado": "Reservado",
+    "vendidoAlq": "Vendido / Alq.",
+    "cargando": "Cargando propiedades...",
+    "sinMensajes": "Sin mensajes recientes."
+  },
+  "estadisticas": {
+    "title": "Panel de Estadísticas",
+    "subtitle": "Visualiza el rendimiento de tu cartera inmobiliaria.",
+    "datos": "Datos",
+    "exportar": "Exportar Informe",
+    "kpi": {
+      "propiedades": "Total Propiedades",
+      "leads": "Leads Mensuales",
+      "ventas": "Ventas del Mes",
+      "ingresos": "Ingresos Estimados"
+    },
+    "variacionTooltip": "Variación vs mes anterior",
+    "ventasPorMes": "Ventas y Alquileres por Mes",
+    "ventas": "Ventas",
+    "alquileres": "Alquileres",
+    "estadoCartera": "Estado de Cartera",
+    "precioMedio": "Precio Medio por Tipo (€)",
+    "distribucionZona": "Distribución por Zona",
+    "altasRecientes": "Altas Recientes",
+    "ultimos7": "Últimos 7 días",
+    "topPropiedades": "Top Propiedades (Vistas)",
+    "clicks": "CLICKS",
+    "disponible": "Disponible",
+    "reservado": "Reservado",
+    "vendidoAlq": "Vendido / Alquilado",
+    "propAbrev": "prop.",
+    "propiedades": "Propiedades"
+  },
+  "propiedades": {
+    "title": "Propiedades",
+    "subtitle": "Gestiona el inventario de activos inmobiliarios de Asturhome.",
+    "exportar": "Exportar CSV",
+    "nueva": "Nueva Propiedad",
+    "filtros": {
+      "tipo": "TIPO",
+      "todosTipos": "Todos los tipos",
+      "ciudad": "CIUDAD",
+      "cualquierUbicacion": "Cualquier ubicación",
+      "precioMax": "PRECIO MÁX.",
+      "habitaciones": "HABITACIONES",
+      "cualquierNro": "Cualquier nro.",
+      "modalidad": "MODALIDAD",
+      "ventaAlquiler": "Venta / Alquiler",
+      "estado": "ESTADO",
+      "cualquierEstado": "Cualquier estado",
+      "disponible": "Disponible",
+      "reservado": "Reservado",
+      "alquilado": "Alquilado",
+      "vendido": "Vendido",
+      "venta": "Venta",
+      "alquiler": "Alquiler"
+    },
+    "tabla": {
+      "propiedad": "PROPIEDAD",
+      "tipo": "TIPO",
+      "detalles": "DETALLES",
+      "precio": "PRECIO",
+      "modalidad": "MODALIDAD",
+      "estado": "ESTADO",
+      "acciones": "ACCIONES",
+      "hab": "hab.",
+      "banos": "baños"
+    },
+    "paginacion": {
+      "mostrando": "Mostrando",
+      "de": "de",
+      "propiedades": "propiedades"
+    },
+    "modal": {
+      "eliminarTitulo": "¿Eliminar propiedad?",
+      "eliminarMsg": "¿Seguro que quieres eliminar {name}? Esta acción no se puede deshacer.",
+      "cancelar": "Cancelar",
+      "eliminando": "Eliminando...",
+      "confirmarEliminar": "Sí, eliminar"
+    },
+    "form": {
+      "nuevaTitulo": "Nueva Propiedad",
+      "nuevaSubtitulo": "Rellena los datos del inmueble",
+      "editarTitulo": "Editar Propiedad",
+      "nombre": "Nombre",
+      "tipo": "Tipo",
+      "seleccionar": "Seleccionar...",
+      "ubicacion": "Ubicación",
+      "modalidad": "Modalidad",
+      "venta": "Venta",
+      "alquiler": "Alquiler",
+      "estado": "Estado",
+      "disponible": "Disponible",
+      "reservado": "Reservado",
+      "alquilado": "Alquilado",
+      "vendido": "Vendido",
+      "precio": "Precio (€)",
+      "habitaciones": "Habitaciones",
+      "banos": "Baños",
+      "superficie": "Superficie (m²)",
+      "imagenes": "Imágenes",
+      "uploadText": "Arrastra imágenes aquí o",
+      "uploadLink": "selecciona archivos",
+      "anadirImagenes": "Añadir más imágenes",
+      "cancelar": "Cancelar",
+      "guardando": "Guardando...",
+      "guardarPropiedad": "Guardar Propiedad",
+      "guardarCambios": "Guardar cambios"
+    },
+    "ver": {
+      "tipo": "TIPO",
+      "modalidad": "MODALIDAD",
+      "estado": "ESTADO",
+      "habitaciones": "HABITACIONES",
+      "banos": "BAÑOS",
+      "superficie": "SUPERFICIE",
+      "ubicacion": "UBICACIÓN",
+      "precio": "PRECIO"
+    },
+    "stats": {
+      "ratioVenta": "RATIO DE VENTA",
+      "mediaReservas": "MEDIA RESERVAS",
+      "nuevosLeads": "NUEVOS LEADS",
+      "dias": "días",
+      "hoy": "Hoy"
+    }
+  },
+  "mensajes": {
+    "title": "Centro de Mensajes",
+    "subtitle": "Gestiona las consultas de tus clientes en tiempo real.",
+    "tabs": {
+      "tablero": "Tablero",
+      "lista": "Lista",
+      "archivo": "Archivo"
+    },
+    "estados": {
+      "nuevo": "Nuevo",
+      "nuevos": "Nuevos",
+      "enProceso": "En proceso",
+      "respondido": "Respondido",
+      "respondidos": "Respondidos",
+      "cerrado": "Cerrado",
+      "cerrados": "Cerrados"
+    },
+    "tabla": {
+      "cliente": "Cliente",
+      "propiedad": "Propiedad",
+      "tipo": "Tipo",
+      "mensaje": "Mensaje",
+      "modalidad": "Modalidad",
+      "estado": "Estado",
+      "acciones": "Acciones"
+    },
+    "verHilo": "Ver hilo",
+    "archivo": {
+      "vacio": "No hay mensajes archivados"
+    },
+    "panel": {
+      "estado": "Estado:",
+      "responder": "Responder",
+      "notaInterna": "Nota interna",
+      "placeholderRespuesta": "Escribe tu respuesta...",
+      "placeholderNota": "Escribe una nota privada (solo visible para el equipo)...",
+      "enviarEmail": "Se enviará un email a",
+      "soloEquipo": "Solo visible para el equipo, el cliente no la verá",
+      "guardarNota": "Guardar nota",
+      "enviar": "Enviar"
+    }
+  },
+  "configuracion": {
+    "title": "Configuración",
+    "subtitle": "Personaliza tu entorno de gestión inmobiliaria.",
+    "perfil": {
+      "title": "Perfil de Usuario",
+      "guardar": "Guardar Cambios",
+      "nombre": "NOMBRE COMPLETO",
+      "idioma": "IDIOMA",
+      "contrasena": "CONTRASEÑA",
+      "cambiarContrasena": "Cambiar contraseña",
+      "guardadoOk": "Perfil guardado correctamente.",
+      "modal": {
+        "title": "Cambiar Contraseña",
+        "actual": "CONTRASEÑA ACTUAL",
+        "nueva": "NUEVA CONTRASEÑA",
+        "confirmar": "CONFIRMAR CONTRASEÑA",
+        "cancelar": "Cancelar",
+        "guardar": "Guardar",
+        "guardando": "Guardando...",
+        "ok": "Contraseña actualizada correctamente.",
+        "noCoinciden": "Las contraseñas no coinciden.",
+        "sinActual": "Introduce tu contraseña actual.",
+        "sinNueva": "Introduce la nueva contraseña.",
+        "errorConexion": "Error de conexión con el servidor."
+      }
+    },
+    "apariencia": {
+      "title": "Apariencia",
+      "tema": "TEMA VISUAL",
+      "claro": "Claro",
+      "oscuro": "Oscuro",
+      "colorAcento": "COLOR DE ACENTO",
+      "fuente": "TAMAÑO DE FUENTE",
+      "fuentePequeno": "Pequeño",
+      "fuenteMediano": "Mediano",
+      "fuenteGrande": "Grande"
+    },
+    "preferencias": {
+      "title": "Preferencias del Sistema",
+      "sonido": "Notificaciones Sonoras",
+      "sonidoDesc": "Emitir sonido al recibir alertas",
+      "atajos": "Atajos de Teclado",
+      "atajosDesc": "Activar navegación rápida",
+      "decimales": "Formato de Precio",
+      "decimalesDesc": "Mostrar decimales en valores",
+      "paginaInicio": "PÁGINA DE INICIO"
+    },
+    "atajos": {
+      "title": "Atajos Rápidos",
+      "navDashboard": "Ir a Dashboard",
+      "navPropiedades": "Ir a Propiedades",
+      "navEstadisticas": "Ir a Estadísticas",
+      "navMensajes": "Ir a Mensajes",
+      "navConfiguracion": "Ir a Configuración",
+      "buscador": "Buscador Global",
+      "nuevaPropiedad": "Nueva Propiedad",
+      "navLogout": "Cerrar sesión",
+      "buscarPropiedades": "Buscar propiedades",
+      "buscarMensajes": "Buscar mensajes",
+      "vistaTablero": "Vista tablero",
+      "vistaLista": "Vista lista",
+      "guardarPerfil": "Guardar perfil",
+      "alternarTema": "Alternar tema claro/oscuro",
+      "restaurar": "Restaurar",
+      "hint": "Haz clic en un atajo para cambiarlo",
+      "pulsaTecla": "Pulsa una tecla…",
+      "teclaEnUso": "Tecla ya en uso"
+    },
+    "fraseDia": {
+      "title": "Frase del Día",
+      "hint": "Usa {name} para insertar el nombre del agente. El día actual aparece resaltado.",
+      "dias": ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+    },
+    "cerrarSesion": "Cerrar Sesión"
+  },
+  "estados": {
+    "disponible": "Disponible",
+    "reservado": "Reservado",
+    "alquilado": "Alquilado",
+    "vendido": "Vendido",
+    "nuevo": "Nuevo",
+    "enProceso": "En proceso",
+    "respondido": "Respondido",
+    "cerrado": "Cerrado"
+  }
+}

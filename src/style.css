@@ -1,0 +1,89 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #419383;
+  --logo-filter: brightness(0) saturate(100%) invert(55%) sepia(30%) saturate(500%) hue-rotate(120deg) brightness(90%);
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+
+html.dark body {
+  background-color: #111827;
+  color: #e2e8f0;
+}
+
+html.tipografia-playfair body      { font-family: 'Playfair Display', Georgia, serif; }
+html.tipografia-merriweather body { font-family: 'Merriweather', Georgia, serif; }
+
+/* ── Tamaño de fuente: solo texto de contenido, no elementos estructurales ── */
+
+html.font-small .page-title,
+html.font-small .stats-header-left h1              { font-size: 22px; }
+html.font-small .page-subtitle                     { font-size: 12px; }
+html.font-small .kpi-value                         { font-size: 20px; }
+html.font-small .kpi-label                         { font-size: 11px; }
+html.font-small .dash-card-header h3,
+html.font-small .chart-card-header h3,
+html.font-small .card-title-row h2,
+html.font-small .estado-title                      { font-size: 15px; }
+html.font-small .prop-name,
+html.font-small .price-cell,
+html.font-small .pref-name,
+html.font-small .card-name,
+html.font-small .lista-nombre,
+html.font-small .panel-nombre,
+html.font-small .col-title                         { font-size: 12px; }
+html.font-small .prop-id, html.font-small .prop-location,
+html.font-small .msg-snippet, html.font-small .card-snippet,
+html.font-small .pref-desc,  html.font-small .lista-snippet,
+html.font-small .kpi-badge, html.font-small .atajo-label,
+html.font-small .estado-item, html.font-small .user-name,
+html.font-small .user-role, html.font-small .zona-value,
+html.font-small .zona-name, html.font-small .legend-item,
+html.font-small .props-table th, html.font-small .props-table td,
+html.font-small .lista-table  th, html.font-small .lista-table  td  { font-size: 11px; }
+
+html.font-large .page-title,
+html.font-large .stats-header-left h1              { font-size: 30px; }
+html.font-large .page-subtitle                     { font-size: 15px; }
+html.font-large .kpi-value                         { font-size: 28px; }
+html.font-large .kpi-label                         { font-size: 14px; }
+html.font-large .dash-card-header h3,
+html.font-large .chart-card-header h3,
+html.font-large .card-title-row h2,
+html.font-large .estado-title                      { font-size: 19px; }
+html.font-large .prop-name,
+html.font-large .price-cell,
+html.font-large .pref-name,
+html.font-large .card-name,
+html.font-large .lista-nombre,
+html.font-large .panel-nombre,
+html.font-large .col-title                         { font-size: 16px; }
+html.font-large .prop-id, html.font-large .prop-location,
+html.font-large .msg-snippet, html.font-large .card-snippet,
+html.font-large .pref-desc,  html.font-large .lista-snippet,
+html.font-large .kpi-badge, html.font-large .atajo-label,
+html.font-large .estado-item, html.font-large .user-name,
+html.font-large .user-role, html.font-large .zona-value,
+html.font-large .zona-name, html.font-large .legend-item,
+html.font-large .props-table th, html.font-large .props-table td,
+html.font-large .lista-table  th, html.font-large .lista-table  td  { font-size: 15px; }
+
+/* Dark mode por vista → ver bloques <style> al final de cada componente */
+
+#app {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: color-mix(in srgb, var(--color-primary) 70%, black); }
